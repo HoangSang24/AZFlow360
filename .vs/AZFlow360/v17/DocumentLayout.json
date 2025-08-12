@@ -1,0 +1,1368 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\azflow360.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\azflow360.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Migrations\\20250812010233_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZFlow360.Infrastructure\\Migrations\\20250812010233_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|solutionrelative:azflow360.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Migrations\\20250812005805_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZFlow360.Infrastructure\\Migrations\\20250812005805_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\azflow360.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\azflow360.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.api\\azflow360.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|solutionrelative:azflow360.api\\azflow360.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.api\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|solutionrelative:azflow360.api\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|solutionrelative:azflow360.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|solutionrelative:azflow360.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.api\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|solutionrelative:azflow360.api\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\common\\dtos\\orderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\common\\dtos\\orderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\common\\dtos\\productdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\common\\dtos\\productdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\common\\dtos\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\common\\dtos\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\features\\auth\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\features\\auth\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\features\\auth\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\features\\auth\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\common\\behaviours\\validationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\common\\behaviours\\validationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|solutionrelative:azflow360.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\azflow360.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\azflow360.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB309629-FB9F-4FB0-838E-D0BA496A0B5F}|AZFlow360.API\\AZFlow360.API.csproj|solutionrelative:azflow360.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\ipromotionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\ipromotionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\ipurchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\ipurchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\purchasedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\purchasedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\inventorytransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\inventorytransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\features\\auth\\queries\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\features\\auth\\queries\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\common\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\common\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.application\\common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CA8D1-012B-4D0D-BF77-E93D8C836A00}|AZFlow360.Application\\AZFlow360.Application.csproj|solutionrelative:azflow360.application\\common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\purchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\purchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\promotionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\promotionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\inventorytransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\inventorytransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\supplierconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\supplierconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\purchasedetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\purchasedetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\purchaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\purchaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\promotionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\promotionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\productvariantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\productvariantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\productpromotionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\productpromotionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\inventorytransactionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\inventorytransactionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.infrastructure\\persistence\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8877EC-606C-4A60-BD95-21CAD7A40704}|AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj|solutionrelative:azflow360.infrastructure\\persistence\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\iinventorytransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\iinventorytransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\productpromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\productpromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|c:\\tai_lieu_hoc_tap\\a\\a\\duanmau\\du_an_mau_1\\azflow360\\azflow360.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DAC3A8-5D7B-4A34-B648-B005F397D711}|AZFlow360.Domain\\AZFlow360.Domain.csproj|solutionrelative:azflow360.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 233,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250812010233_InitialCreate.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Migrations\\20250812010233_InitialCreate.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Migrations\\20250812010233_InitialCreate.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Migrations\\20250812010233_InitialCreate.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Migrations\\20250812010233_InitialCreate.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T01:02:33.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250812005805_InitialCreate.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Migrations\\20250812005805_InitialCreate.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Migrations\\20250812005805_InitialCreate.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Migrations\\20250812005805_InitialCreate.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Migrations\\20250812005805_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T00:58:05.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "AZFlow360.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:29:22.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AZFlow360.Application",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\AZFlow360.Application.csproj",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\AZFlow360.Application.csproj",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\AZFlow360.Application.csproj",
+              "RelativeToolTip": "AZFlow360.Application\\AZFlow360.Application.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-12T00:02:59.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\appsettings.json",
+              "RelativeDocumentMoniker": "AZFlow360.API\\appsettings.json",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\appsettings.json",
+              "RelativeToolTip": "AZFlow360.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T22:38:58.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AZFlow360.API",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\AZFlow360.API.csproj",
+              "RelativeDocumentMoniker": "AZFlow360.API\\AZFlow360.API.csproj",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\AZFlow360.API.csproj",
+              "RelativeToolTip": "AZFlow360.API\\AZFlow360.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-12T00:02:47.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AZFlow360.Infrastructure",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\AZFlow360.Infrastructure.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-11T22:22:16.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:44:36.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:21:10.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:32:06.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "AZFlow360.API\\DTOs\\AuthDtos.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "AZFlow360.API\\DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:54:17.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "AZFlow360.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "AZFlow360.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:37:59.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AZFlow360.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AZFlow360.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwB8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:37:25.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiControllerBase.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\Controllers\\ApiControllerBase.cs",
+              "RelativeDocumentMoniker": "AZFlow360.API\\Controllers\\ApiControllerBase.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\Controllers\\ApiControllerBase.cs",
+              "RelativeToolTip": "AZFlow360.API\\Controllers\\ApiControllerBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:03:28.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T07:33:07.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderDtos.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\DTOs\\OrderDtos.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\Common\\DTOs\\OrderDtos.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\DTOs\\OrderDtos.cs",
+              "RelativeToolTip": "AZFlow360.Application\\Common\\DTOs\\OrderDtos.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:40:33.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductDtos.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\DTOs\\ProductDtos.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\Common\\DTOs\\ProductDtos.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\DTOs\\ProductDtos.cs",
+              "RelativeToolTip": "AZFlow360.Application\\Common\\DTOs\\ProductDtos.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:40:05.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDtos.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\DTOs\\UserDtos.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\Common\\DTOs\\UserDtos.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\DTOs\\UserDtos.cs",
+              "RelativeToolTip": "AZFlow360.Application\\Common\\DTOs\\UserDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:39:41.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:19:18.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:30:51.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:45:30.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Features\\Auth\\Commands\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\Features\\Auth\\Commands\\CreateProductCommand.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Features\\Auth\\Commands\\CreateProductCommand.cs",
+              "RelativeToolTip": "AZFlow360.Application\\Features\\Auth\\Commands\\CreateProductCommand.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwBAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:28:50.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Features\\Auth\\Commands\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\Features\\Auth\\Commands\\RegisterCommand.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Features\\Auth\\Commands\\RegisterCommand.cs",
+              "RelativeToolTip": "AZFlow360.Application\\Features\\Auth\\Commands\\RegisterCommand.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:28:03.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ValidationBehaviour.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\Behaviours\\ValidationBehaviour.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\Common\\Behaviours\\ValidationBehaviour.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\Behaviours\\ValidationBehaviour.cs",
+              "RelativeToolTip": "AZFlow360.Application\\Common\\Behaviours\\ValidationBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:30:08.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\Program.cs",
+              "RelativeDocumentMoniker": "AZFlow360.API\\Program.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\Program.cs",
+              "RelativeToolTip": "AZFlow360.API\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:38:25.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AZFlow360.Domain",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\AZFlow360.Domain.csproj",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\AZFlow360.Domain.csproj",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\AZFlow360.Domain.csproj",
+              "RelativeToolTip": "AZFlow360.Domain\\AZFlow360.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-11T22:17:23.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "AZFlow360.API\\WeatherForecast.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.API\\WeatherForecast.cs",
+              "RelativeToolTip": "AZFlow360.API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:50:38.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAMwB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T07:44:27.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\Customer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIAywBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:18:46.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAewBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:18:27.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:29:38.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvx0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:31:31.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IPromotionRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IPromotionRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\IPromotionRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IPromotionRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\IPromotionRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:56:07.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IPurchaseRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IPurchaseRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\IPurchaseRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IPurchaseRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\IPurchaseRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:56:37.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:57:03.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:23:50.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:24:23.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ISupplierRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\ISupplierRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\ISupplierRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\ISupplierRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\ISupplierRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:57:23.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Supplier.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\Supplier.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Supplier.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\Supplier.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:21:22.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PurchaseDetail.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\PurchaseDetail.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\PurchaseDetail.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\PurchaseDetail.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\PurchaseDetail.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:20:58.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "InventoryTransaction.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\InventoryTransaction.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\InventoryTransaction.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\InventoryTransaction.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\InventoryTransaction.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:19:04.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:17:44.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginQuery.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Features\\Auth\\Queries\\LoginQuery.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\Features\\Auth\\Queries\\LoginQuery.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Features\\Auth\\Queries\\LoginQuery.cs",
+              "RelativeToolTip": "AZFlow360.Application\\Features\\Auth\\Queries\\LoginQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:14:11.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\Common\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "AZFlow360.Application\\Common\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:25:47.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Application\\Common\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Application\\Common\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "AZFlow360.Application\\Common\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:25:11.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:33:24.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:32:59.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA1wDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:32:35.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\SupplierRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\SupplierRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\SupplierRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:32:24.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PurchaseRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\PurchaseRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\PurchaseRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\PurchaseRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\PurchaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:31:45.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PromotionRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\PromotionRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\PromotionRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\PromotionRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\PromotionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:31:26.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:31:08.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:30:34.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "InventoryTransactionRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\InventoryTransactionRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\InventoryTransactionRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\InventoryTransactionRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\InventoryTransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:30:15.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:29:57.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SupplierConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\SupplierConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\SupplierConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\SupplierConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\SupplierConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:45:12.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PurchaseDetailConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\PurchaseDetailConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\PurchaseDetailConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\PurchaseDetailConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\PurchaseDetailConfiguration.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvyEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:44:16.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PurchaseConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\PurchaseConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\PurchaseConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\PurchaseConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\PurchaseConfiguration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:43:53.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "PromotionConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\PromotionConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\PromotionConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\PromotionConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\PromotionConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:43:33.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ProductVariantConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductVariantConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductVariantConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductVariantConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductVariantConfiguration.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvyMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:43:09.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ProductPromotionConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductPromotionConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductPromotionConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductPromotionConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductPromotionConfiguration.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvx8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:42:41.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvyEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:42:16.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OrderDetailConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\OrderDetailConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\OrderDetailConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\OrderDetailConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\OrderDetailConfiguration.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvyEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:41:53.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "OrderConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\OrderConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\OrderConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\OrderConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\OrderConfiguration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:41:31.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "InventoryTransactionConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\InventoryTransactionConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\InventoryTransactionConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\InventoryTransactionConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\InventoryTransactionConfiguration.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvx0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:41:08.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "RelativeToolTip": "AZFlow360.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:40:47.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:55:30.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:23:17.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IInventoryTransactionRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IInventoryTransactionRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\IInventoryTransactionRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IInventoryTransactionRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\IInventoryTransactionRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:55:10.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:22:51.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\ICustomerRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:54:48.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:54:26.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Purchase.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\Purchase.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Purchase.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\Purchase.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:20:45.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Promotion.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Promotion.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\Promotion.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Promotion.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\Promotion.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:20:33.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ProductVariant.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\ProductVariant.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\ProductVariant.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\ProductVariant.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\ProductVariant.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvzEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:20:19.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ProductPromotion.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\ProductPromotion.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\ProductPromotion.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\ProductPromotion.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\ProductPromotion.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:20:06.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADwvysAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:19:54.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "AZFlow360.Domain\\Entities\\OrderDetail.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\a\\a\\DuAnMau\\du_an_mau_1\\AZFlow360\\AZFlow360.Domain\\Entities\\OrderDetail.cs",
+              "RelativeToolTip": "AZFlow360.Domain\\Entities\\OrderDetail.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:19:35.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 56,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
