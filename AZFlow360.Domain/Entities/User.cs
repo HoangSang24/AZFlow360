@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AZFlow360.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,38 +9,50 @@ using System.Threading.Tasks;
 
 namespace AZFlow360.Domain.Entities
 {
-    public class User
+    public class User : BaseEntity<int>
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int UserID { get; set; }
+        public string Username { get; private set; }
+        public string PasswordHash { get; private set; }
+        public string FullName { get; private set; }
+        public string? Phone { get; private set; }
+        public string? Email { get; private set; }
+        public int RoleID { get; private set; }
+        public bool IsActive { get; private set; }
+        public DateTime CreatedAt { get; private set; }
+        public DateTime? UpdatedAt { get; private set; }
 
-        [Required, MaxLength(100)]
-        public string Username { get; set; } = null!;
+        public Role Role { get; private set; } = null!;
+        private readonly List<Order> _orders = new();
+        public IReadOnlyCollection<Order> Orders => _orders.AsReadOnly();
+        private readonly List<Purchase> _purchases = new();
+        public IReadOnlyCollection<Purchase> Purchases => _purchases.AsReadOnly();
 
-        [Required]
-        public string PasswordHash { get; set; } = null!;
+        private User() { }
 
-        [Required, MaxLength(100)]
-        public string FullName { get; set; } = null!;
+        public static User Create(string username, string passwordHash, string fullName, int roleId, string? phone, string? email)
+        {
+            return new User
+            {
+                Username = username,
+                PasswordHash = passwordHash,
+                FullName = fullName,
+                Phone = phone,
+                Email = email,
+                RoleID = roleId,
+                IsActive = true,
+                CreatedAt = DateTime.UtcNow
+            };
+        }
 
-        [MaxLength(20)]
-        public string? Phone { get; set; }
+        public void UpdateProfile(string fullName, string? phone, string? email)
+        {
+            FullName = fullName;
+            Phone = phone;
+            Email = email;
+            UpdatedAt = DateTime.UtcNow;
+        }
 
-        [MaxLength(100)]
-        public string? Email { get; set; }
-
-        // FK
-        [ForeignKey(nameof(Role))]
-        public int RoleID { get; set; }
-        public Role Role { get; set; } = null!;
-
-        public bool IsActive { get; set; } = true;
-
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public DateTime? UpdatedAt { get; set; }
-
-        public ICollection<Order> Orders { get; set; } = new List<Order>();
-        public ICollection<Purchase> Purchases { get; set; } = new List<Purchase>();
+        public void Deactivate() => IsActive = false;
+        public void Activate() => IsActive = true;
     }
 }

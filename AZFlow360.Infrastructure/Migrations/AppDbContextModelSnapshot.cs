@@ -24,11 +24,12 @@ namespace AZFlow360.Infrastructure.Migrations
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.Category", b =>
                 {
-                    b.Property<int>("CategoryID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("CategoryID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("CategoryName")
                         .IsRequired()
@@ -41,31 +42,33 @@ namespace AZFlow360.Infrastructure.Migrations
                     b.Property<int?>("ParentCategoryID")
                         .HasColumnType("int");
 
-                    b.HasKey("CategoryID");
+                    b.HasKey("Id");
 
                     b.HasIndex("CategoryName")
                         .IsUnique();
 
                     b.HasIndex("ParentCategoryID");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.Customer", b =>
                 {
-                    b.Property<int>("CustomerID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("CustomerID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustomerID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FullName")
                         .IsRequired()
@@ -73,39 +76,37 @@ namespace AZFlow360.Infrastructure.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Phone")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasColumnType("nvarchar(450)");
 
-                    b.Property<decimal>("TotalSpent")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("CustomerID");
+                    b.HasKey("Id");
 
                     b.HasIndex("Phone")
                         .IsUnique()
                         .HasFilter("[Phone] IS NOT NULL");
 
-                    b.ToTable("Customers");
+                    b.ToTable("Customers", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.InventoryTransaction", b =>
                 {
-                    b.Property<long>("TransactionID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
+                        .HasColumnType("int")
+                        .HasColumnName("TransactionID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("TransactionID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Notes")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                    b.Property<int>("NewStockLevel")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("OrderDetailID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("PurchaseDetailID")
+                        .HasColumnType("int");
 
                     b.Property<int>("QuantityChange")
                         .HasColumnType("int");
-
-                    b.Property<string>("ReferenceID")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
 
                     b.Property<DateTime>("TransactionDate")
                         .HasColumnType("datetime2");
@@ -118,30 +119,24 @@ namespace AZFlow360.Infrastructure.Migrations
                     b.Property<int>("VariantID")
                         .HasColumnType("int");
 
-                    b.HasKey("TransactionID");
+                    b.HasKey("Id");
 
                     b.HasIndex("VariantID");
 
-                    b.ToTable("InventoryTransactions");
+                    b.ToTable("InventoryTransactions", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.Order", b =>
                 {
-                    b.Property<int>("OrderID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("OrderID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int?>("CustomerID")
                         .HasColumnType("int");
-
-                    b.Property<decimal>("DiscountAmount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("Notes")
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("OrderCode")
                         .IsRequired()
@@ -153,14 +148,7 @@ namespace AZFlow360.Infrastructure.Migrations
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<decimal>("SubTotal")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("TaxAmount")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("TotalAmount")
                         .HasColumnType("decimal(18,2)");
@@ -168,7 +156,7 @@ namespace AZFlow360.Infrastructure.Migrations
                     b.Property<int>("UserID")
                         .HasColumnType("int");
 
-                    b.HasKey("OrderID");
+                    b.HasKey("Id");
 
                     b.HasIndex("CustomerID");
 
@@ -177,16 +165,17 @@ namespace AZFlow360.Infrastructure.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.OrderDetail", b =>
                 {
-                    b.Property<long>("OrderDetailID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
+                        .HasColumnType("int")
+                        .HasColumnName("OrderDetailID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("OrderDetailID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("OrderID")
                         .HasColumnType("int");
@@ -200,31 +189,29 @@ namespace AZFlow360.Infrastructure.Migrations
                     b.Property<int>("VariantID")
                         .HasColumnType("int");
 
-                    b.HasKey("OrderDetailID");
+                    b.HasKey("Id");
 
                     b.HasIndex("OrderID");
 
                     b.HasIndex("VariantID");
 
-                    b.ToTable("OrderDetails");
+                    b.ToTable("OrderDetails", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.Product", b =>
                 {
-                    b.Property<int>("ProductID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("ProductID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("CategoryID")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
 
                     b.Property<string>("ProductName")
                         .IsRequired()
@@ -234,13 +221,13 @@ namespace AZFlow360.Infrastructure.Migrations
                     b.Property<int?>("SupplierID")
                         .HasColumnType("int");
 
-                    b.HasKey("ProductID");
+                    b.HasKey("Id");
 
                     b.HasIndex("CategoryID");
 
                     b.HasIndex("SupplierID");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.ProductPromotion", b =>
@@ -255,28 +242,22 @@ namespace AZFlow360.Infrastructure.Migrations
 
                     b.HasIndex("PromotionID");
 
-                    b.ToTable("ProductPromotions");
+                    b.ToTable("ProductPromotions", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.ProductVariant", b =>
                 {
-                    b.Property<int>("VariantID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("VariantID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VariantID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<decimal>("CostPrice")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("decimal(18,2)")
                         .HasDefaultValue(0m);
-
-                    b.Property<string>("ImageURL")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
 
                     b.Property<int>("ProductID")
                         .HasColumnType("int");
@@ -299,23 +280,27 @@ namespace AZFlow360.Infrastructure.Migrations
                         .HasColumnType("int")
                         .HasDefaultValue(0);
 
-                    b.HasKey("VariantID");
+                    b.HasKey("Id");
 
                     b.HasIndex("ProductID");
 
                     b.HasIndex("SKU")
                         .IsUnique();
 
-                    b.ToTable("ProductVariants");
+                    b.ToTable("ProductVariants", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.Promotion", b =>
                 {
-                    b.Property<int>("PromotionID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("PromotionID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PromotionID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("DiscountValue")
                         .HasColumnType("decimal(18,2)");
@@ -339,18 +324,19 @@ namespace AZFlow360.Infrastructure.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("PromotionID");
+                    b.HasKey("Id");
 
-                    b.ToTable("Promotions");
+                    b.ToTable("Promotions", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.Purchase", b =>
                 {
-                    b.Property<int>("PurchaseID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("PurchaseID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PurchaseID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("PurchaseCode")
                         .IsRequired()
@@ -362,8 +348,7 @@ namespace AZFlow360.Infrastructure.Migrations
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("SupplierID")
                         .HasColumnType("int");
@@ -374,7 +359,7 @@ namespace AZFlow360.Infrastructure.Migrations
                     b.Property<int>("UserID")
                         .HasColumnType("int");
 
-                    b.HasKey("PurchaseID");
+                    b.HasKey("Id");
 
                     b.HasIndex("PurchaseCode")
                         .IsUnique();
@@ -383,16 +368,17 @@ namespace AZFlow360.Infrastructure.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Purchases");
+                    b.ToTable("Purchases", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.PurchaseDetail", b =>
                 {
-                    b.Property<long>("PurchaseDetailID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
+                        .HasColumnType("int")
+                        .HasColumnName("PurchaseDetailID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("PurchaseDetailID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("PurchaseID")
                         .HasColumnType("int");
@@ -406,94 +392,93 @@ namespace AZFlow360.Infrastructure.Migrations
                     b.Property<int>("VariantID")
                         .HasColumnType("int");
 
-                    b.HasKey("PurchaseDetailID");
+                    b.HasKey("Id");
 
                     b.HasIndex("PurchaseID");
 
                     b.HasIndex("VariantID");
 
-                    b.ToTable("PurchaseDetails");
+                    b.ToTable("PurchaseDetails", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.Role", b =>
                 {
-                    b.Property<int>("RoleID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("RoleID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoleID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("RoleName")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("RoleID");
+                    b.HasKey("Id");
 
                     b.HasIndex("RoleName")
                         .IsUnique();
 
-                    b.ToTable("Roles");
+                    b.ToTable("Roles", (string)null);
 
                     b.HasData(
                         new
                         {
-                            RoleID = 1,
+                            Id = 1,
                             RoleName = "Administrator"
                         },
                         new
                         {
-                            RoleID = 2,
+                            Id = 2,
                             RoleName = "Manager"
                         },
                         new
                         {
-                            RoleID = 3,
+                            Id = 3,
                             RoleName = "Salesperson"
                         });
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.Supplier", b =>
                 {
-                    b.Property<int>("SupplierID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("SupplierID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SupplierID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ContactPerson")
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                    b.Property<string>("ContactName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SupplierName")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.HasKey("SupplierID");
+                    b.HasKey("Id");
 
-                    b.ToTable("Suppliers");
+                    b.ToTable("Suppliers", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.User", b =>
                 {
-                    b.Property<int>("UserID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("UserID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
@@ -531,14 +516,14 @@ namespace AZFlow360.Infrastructure.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.HasKey("UserID");
+                    b.HasKey("Id");
 
                     b.HasIndex("RoleID");
 
                     b.HasIndex("Username")
                         .IsUnique();
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.Category", b =>
@@ -554,7 +539,7 @@ namespace AZFlow360.Infrastructure.Migrations
             modelBuilder.Entity("AZFlow360.Domain.Entities.InventoryTransaction", b =>
                 {
                     b.HasOne("AZFlow360.Domain.Entities.ProductVariant", "Variant")
-                        .WithMany("InventoryTransactions")
+                        .WithMany()
                         .HasForeignKey("VariantID")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -589,7 +574,7 @@ namespace AZFlow360.Infrastructure.Migrations
                         .IsRequired();
 
                     b.HasOne("AZFlow360.Domain.Entities.ProductVariant", "Variant")
-                        .WithMany("OrderDetails")
+                        .WithMany()
                         .HasForeignKey("VariantID")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -675,7 +660,7 @@ namespace AZFlow360.Infrastructure.Migrations
                         .IsRequired();
 
                     b.HasOne("AZFlow360.Domain.Entities.ProductVariant", "Variant")
-                        .WithMany("PurchaseDetails")
+                        .WithMany()
                         .HasForeignKey("VariantID")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -718,15 +703,6 @@ namespace AZFlow360.Infrastructure.Migrations
                     b.Navigation("ProductPromotions");
 
                     b.Navigation("Variants");
-                });
-
-            modelBuilder.Entity("AZFlow360.Domain.Entities.ProductVariant", b =>
-                {
-                    b.Navigation("InventoryTransactions");
-
-                    b.Navigation("OrderDetails");
-
-                    b.Navigation("PurchaseDetails");
                 });
 
             modelBuilder.Entity("AZFlow360.Domain.Entities.Promotion", b =>

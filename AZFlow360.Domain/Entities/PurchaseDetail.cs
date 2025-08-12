@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AZFlow360.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,23 +9,25 @@ using System.Threading.Tasks;
 
 namespace AZFlow360.Domain.Entities
 {
-    public class PurchaseDetail
+    public class PurchaseDetail : BaseEntity<int>
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long PurchaseDetailID { get; set; }
+        public int PurchaseID { get; private set; }
+        public int VariantID { get; private set; }
+        public int Quantity { get; private set; }
+        public decimal UnitCost { get; private set; }
+        public decimal Subtotal => Quantity * UnitCost;
 
-        [ForeignKey(nameof(Purchase))]
-        public int PurchaseID { get; set; }
-        public Purchase Purchase { get; set; } = null!;
+        public Purchase Purchase { get; private set; } = null!;
+        public ProductVariant Variant { get; private set; } = null!;
 
-        [ForeignKey(nameof(Variant))]
-        public int VariantID { get; set; }
-        public ProductVariant Variant { get; set; } = null!;
+        private PurchaseDetail() { }
 
-        public int Quantity { get; set; }
-
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal UnitCost { get; set; }
+        internal PurchaseDetail(int purchaseId, int variantId, int quantity, decimal unitCost)
+        {
+            PurchaseID = purchaseId;
+            VariantID = variantId;
+            Quantity = quantity;
+            UnitCost = unitCost;
+        }
     }
 }

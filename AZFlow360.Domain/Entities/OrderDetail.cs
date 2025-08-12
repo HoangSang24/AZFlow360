@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AZFlow360.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,23 +9,31 @@ using System.Threading.Tasks;
 
 namespace AZFlow360.Domain.Entities
 {
-    public class OrderDetail
+    public class OrderDetail : BaseEntity<int>
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long OrderDetailID { get; set; }
+        public int OrderID { get; private set; }
+        public int VariantID { get; private set; }
+        public int Quantity { get; private set; }
+        public decimal UnitPrice { get; private set; }
+        public decimal Subtotal => Quantity * UnitPrice;
 
-        [ForeignKey(nameof(Order))]
-        public int OrderID { get; set; }
-        public Order Order { get; set; } = null!;
+        public Order Order { get; private set; } = null!;
+        public ProductVariant Variant { get; private set; } = null!;
 
-        [ForeignKey(nameof(Variant))]
-        public int VariantID { get; set; }
-        public ProductVariant Variant { get; set; } = null!;
+        private OrderDetail() { }
 
-        public int Quantity { get; set; }
+        internal OrderDetail(int orderId, int variantId, int quantity, decimal unitPrice)
+        {
+            OrderID = orderId;
+            VariantID = variantId;
+            Quantity = quantity;
+            UnitPrice = unitPrice;
+        }
 
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal UnitPrice { get; set; }
+        internal void AddQuantity(int quantity)
+        {
+            if (quantity <= 0) throw new ArgumentException("Quantity to add must be positive.");
+            Quantity += quantity;
+        }
     }
 }

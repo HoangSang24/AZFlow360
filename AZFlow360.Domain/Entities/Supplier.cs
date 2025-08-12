@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AZFlow360.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,28 +9,35 @@ using System.Threading.Tasks;
 
 namespace AZFlow360.Domain.Entities
 {
-    public class Supplier
+    public class Supplier : BaseEntity<int>
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int SupplierID { get; set; }
+        public string SupplierName { get; private set; }
+        public string? ContactName { get; private set; }
+        public string? Phone { get; private set; }
+        public string? Email { get; private set; }
+        public string? Address { get; private set; }
 
-        [Required, MaxLength(255)]
-        public string SupplierName { get; set; } = null!;
+        private readonly List<Product> _products = new();
+        public IReadOnlyCollection<Product> Products => _products.AsReadOnly();
 
-        [MaxLength(100)]
-        public string? ContactPerson { get; set; }
+        private readonly List<Purchase> _purchases = new();
+        public IReadOnlyCollection<Purchase> Purchases => _purchases.AsReadOnly();
 
-        [MaxLength(20)]
-        public string? Phone { get; set; }
+        private Supplier() { }
 
-        [MaxLength(100)]
-        public string? Email { get; set; }
+        public static Supplier Create(string name, string? contactName = null, string? phone = null, string? email = null, string? address = null)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+                throw new ArgumentException("Supplier name is required", nameof(name));
 
-        [MaxLength(500)]
-        public string? Address { get; set; }
-
-        public ICollection<Purchase> Purchases { get; set; } = new List<Purchase>();
-        public ICollection<Product> Products { get; set; } = new List<Product>();
+            return new Supplier
+            {
+                SupplierName = name,
+                ContactName = contactName,
+                Phone = phone,
+                Email = email,
+                Address = address
+            };
+        }
     }
 }

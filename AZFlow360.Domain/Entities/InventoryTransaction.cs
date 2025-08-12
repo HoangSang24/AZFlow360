@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AZFlow360.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,27 +9,33 @@ using System.Threading.Tasks;
 
 namespace AZFlow360.Domain.Entities
 {
-    public class InventoryTransaction
+    public class InventoryTransaction : BaseEntity<int>
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long TransactionID { get; set; }
+        public int VariantID { get; private set; }
+        public string TransactionType { get; private set; }
+        public int QuantityChange { get; private set; }
+        public int NewStockLevel { get; private set; }
+        public DateTime TransactionDate { get; private set; }
+        public int? OrderDetailID { get; private set; }
+        public int? PurchaseDetailID { get; private set; }
 
-        [ForeignKey(nameof(Variant))]
-        public int VariantID { get; set; }
-        public ProductVariant Variant { get; set; } = null!;
+        public ProductVariant Variant { get; private set; } = null!;
 
-        [Required, MaxLength(50)]
-        public string TransactionType { get; set; } = null!; // Sale, Purchase, Return, Adjustment
+        private InventoryTransaction() { }
 
-        public int QuantityChange { get; set; }
+        public static InventoryTransaction Create(int variantId, string type, int quantityChange, int newStock)
+        {
+            if (quantityChange == 0)
+                throw new ArgumentException("Quantity change cannot be zero.");
 
-        [MaxLength(50)]
-        public string? ReferenceID { get; set; }
-
-        public DateTime TransactionDate { get; set; } = DateTime.UtcNow;
-
-        [MaxLength(500)]
-        public string? Notes { get; set; }
+            return new InventoryTransaction
+            {
+                VariantID = variantId,
+                TransactionType = type,
+                QuantityChange = quantityChange,
+                NewStockLevel = newStock,
+                TransactionDate = DateTime.UtcNow
+            };
+        }
     }
 }

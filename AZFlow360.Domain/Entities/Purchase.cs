@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AZFlow360.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,31 +9,34 @@ using System.Threading.Tasks;
 
 namespace AZFlow360.Domain.Entities
 {
-    public class Purchase
+    public class Purchase : BaseEntity<int>
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int PurchaseID { get; set; }
+        public string PurchaseCode { get; private set; }
+        public int SupplierID { get; private set; }
+        public int UserID { get; private set; }
+        public DateTime PurchaseDate { get; private set; }
+        public decimal TotalAmount { get; private set; }
+        public string Status { get; private set; }
 
-        [Required, MaxLength(50)]
-        public string PurchaseCode { get; set; } = null!;
+        public Supplier Supplier { get; private set; } = null!;
+        public User User { get; private set; } = null!;
 
-        [ForeignKey(nameof(Supplier))]
-        public int SupplierID { get; set; }
-        public Supplier Supplier { get; set; } = null!;
+        private readonly List<PurchaseDetail> _purchaseDetails = new();
+        public IReadOnlyCollection<PurchaseDetail> PurchaseDetails => _purchaseDetails.AsReadOnly();
 
-        [ForeignKey(nameof(User))]
-        public int UserID { get; set; }
-        public User User { get; set; } = null!;
+        private Purchase() { }
 
-        public DateTime PurchaseDate { get; set; } = DateTime.UtcNow;
-
-        [Required, MaxLength(50)]
-        public string Status { get; set; } = "Received";
-
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal TotalAmount { get; set; } = 0m;
-
-        public ICollection<PurchaseDetail> PurchaseDetails { get; set; } = new List<PurchaseDetail>();
+        public static Purchase Create(string code, int supplierId, int userId)
+        {
+            return new Purchase
+            {
+                PurchaseCode = code,
+                SupplierID = supplierId,
+                UserID = userId,
+                PurchaseDate = DateTime.UtcNow,
+                Status = "Received",
+                TotalAmount = 0
+            };
+        }
     }
 }

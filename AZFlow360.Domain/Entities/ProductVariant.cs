@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AZFlow360.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,39 +9,42 @@ using System.Threading.Tasks;
 
 namespace AZFlow360.Domain.Entities
 {
-    public class ProductVariant
+    public class ProductVariant : BaseEntity<int>
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int VariantID { get; set; }
+        public int ProductID { get; private set; }
+        public string SKU { get; private set; }
+        public decimal CostPrice { get; private set; }
+        public decimal SalePrice { get; private set; }
+        public int Stock { get; private set; }
+        public byte[]? RowVersion { get; private set; }
 
-        [ForeignKey(nameof(Product))]
-        public int ProductID { get; set; }
-        public Product Product { get; set; } = null!;
+        public Product Product { get; private set; } = null!;
 
-        [Required, MaxLength(100)]
-        public string SKU { get; set; } = null!;
+        private ProductVariant() { }
 
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal CostPrice { get; set; } = 0m;
+        internal ProductVariant(int productId, string sku, decimal salePrice, decimal costPrice, int stock)
+        {
+            if (string.IsNullOrWhiteSpace(sku)) throw new ArgumentException("SKU is required.", nameof(sku));
+            if (salePrice < 0) throw new ArgumentException("Sale price cannot be negative.", nameof(salePrice));
 
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal SalePrice { get; set; }
+            ProductID = productId;
+            SKU = sku;
+            SalePrice = salePrice;
+            CostPrice = costPrice;
+            Stock = stock;
+        }
 
-        // Stock: integer, track inventory
-        public int Stock { get; set; } = 0;
+        public void AddStock(int quantity)
+        {
+            if (quantity <= 0) throw new ArgumentException("Quantity must be positive.");
+            Stock += quantity;
+        }
 
-        [MaxLength(500)]
-        public string? ImageURL { get; set; }
-
-        public bool IsActive { get; set; } = true;
-
-        // Concurrency token (optimistic concurrency)
-        [Timestamp]
-        public byte[]? RowVersion { get; set; }
-
-        public ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
-        public ICollection<PurchaseDetail> PurchaseDetails { get; set; } = new List<PurchaseDetail>();
-        public ICollection<InventoryTransaction> InventoryTransactions { get; set; } = new List<InventoryTransaction>();
+        public void RemoveStock(int quantity)
+        {
+            if (quantity <= 0) throw new ArgumentException("Quantity must be positive.");
+            if (Stock < quantity) throw new InvalidOperationException("Not enough stock available.");
+            Stock -= quantity;
+        }
     }
 }

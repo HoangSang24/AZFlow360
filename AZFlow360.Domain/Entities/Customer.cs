@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AZFlow360.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,27 +9,32 @@ using System.Threading.Tasks;
 
 namespace AZFlow360.Domain.Entities
 {
-    public class Customer
+    public class Customer : BaseEntity<int>
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int CustomerID { get; set; }
+        public string FullName { get; private set; }
+        public string? Phone { get; private set; }
+        public string? Email { get; private set; }
+        public string? Address { get; private set; }
+        public DateTime CreatedAt { get; private set; }
 
-        [Required, MaxLength(100)]
-        public string FullName { get; set; } = null!;
+        private readonly List<Order> _orders = new();
+        public IReadOnlyCollection<Order> Orders => _orders.AsReadOnly();
 
-        [MaxLength(20)]
-        public string? Phone { get; set; }
+        private Customer() { }
 
-        [MaxLength(100)]
-        public string? Email { get; set; }
+        public static Customer Create(string fullName, string? phone = null, string? email = null, string? address = null)
+        {
+            if (string.IsNullOrWhiteSpace(fullName))
+                throw new ArgumentException("Customer full name is required", nameof(fullName));
 
-        [MaxLength(500)]
-        public string? Address { get; set; }
-
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal TotalSpent { get; set; } = 0m;
-
-        public ICollection<Order> Orders { get; set; } = new List<Order>();
+            return new Customer
+            {
+                FullName = fullName,
+                Phone = phone,
+                Email = email,
+                Address = address,
+                CreatedAt = DateTime.UtcNow
+            };
+        }
     }
 }

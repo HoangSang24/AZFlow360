@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AZFlow360.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,15 +9,17 @@ using System.Threading.Tasks;
 
 namespace AZFlow360.Domain.Entities
 {
-    public class Role
+    public class Role : BaseEntity<int>
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int RoleID { get; set; }
+        public string RoleName { get; private set; }
+        private readonly List<User> _users = new();
+        public IReadOnlyCollection<User> Users => _users.AsReadOnly();
 
-        [Required, MaxLength(50)]
-        public string RoleName { get; set; } = null!;
-
-        public ICollection<User> Users { get; set; } = new List<User>();
+        private Role() { }
+        public Role(string roleName)
+        {
+            if (string.IsNullOrWhiteSpace(roleName)) throw new ArgumentException("Role name cannot be empty.", nameof(roleName));
+            RoleName = roleName;
+        }
     }
 }

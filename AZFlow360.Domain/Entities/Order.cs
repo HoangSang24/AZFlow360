@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AZFlow360.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,43 +9,56 @@ using System.Threading.Tasks;
 
 namespace AZFlow360.Domain.Entities
 {
-    public class Order
+    public class Order : BaseEntity<int>
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int OrderID { get; set; }
+        public string OrderCode { get; private set; }
+        public int? CustomerID { get; private set; }
+        public int UserID { get; private set; }
+        public DateTime OrderDate { get; private set; }
+        public decimal TotalAmount { get; private set; }
+        public string Status { get; private set; }
 
-        [Required, MaxLength(50)]
-        public string OrderCode { get; set; } = null!;
+        public Customer? Customer { get; private set; }
+        public User User { get; private set; } = null!;
 
-        [ForeignKey(nameof(Customer))]
-        public int? CustomerID { get; set; }
-        public Customer? Customer { get; set; }
+        private readonly List<OrderDetail> _orderDetails = new();
+        public IReadOnlyCollection<OrderDetail> OrderDetails => _orderDetails.AsReadOnly();
 
-        [ForeignKey(nameof(User))]
-        public int UserID { get; set; }
-        public User User { get; set; } = null!;
+        private Order() { }
 
-        public DateTime OrderDate { get; set; } = DateTime.UtcNow;
+        public static Order Create(string orderCode, int userId, int? customerId)
+        {
+            return new Order
+            {
+                OrderCode = orderCode,
+                UserID = userId,
+                CustomerID = customerId,
+                OrderDate = DateTime.UtcNow,
+                Status = "Pending", // Initial status
+                TotalAmount = 0
+            };
+        }
 
-        [Required, MaxLength(50)]
-        public string Status { get; set; } = "Completed";
+        public void AddDetail(int variantId, int quantity, decimal unitPrice)
+        {
+            if (quantity <= 0) throw new ArgumentException("Quantity must be positive.");
 
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal SubTotal { get; set; } = 0m;
+            var existingDetail = _orderDetails.FirstOrDefault(d => d.VariantID == variantId);
+            if (existingDetail != null)
+            {
+                existingDetail.AddQuantity(quantity);
+            }
+            else
+            {
+                var newDetail = new OrderDetail(this.Id, variantId, quantity, unitPrice);
+                _orderDetails.Add(newDetail);
+            }
+            RecalculateTotal();
+        }
 
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal DiscountAmount { get; set; } = 0m;
-
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal TaxAmount { get; set; } = 0m;
-
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal TotalAmount { get; set; } = 0m;
-
-        [MaxLength(1000)]
-        public string? Notes { get; set; }
-
-        public ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
+        private void RecalculateTotal()
+        {
+            TotalAmount = _orderDetails.Sum(d => d.Subtotal);
+        }
     }
 }
